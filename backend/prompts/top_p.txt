@@ -1,0 +1,12 @@
+Lesson: Top P (Nucleus Sampling)
+
+Top P controls how many possible words the model considers when generating text.
+
+- Instead of picking from all possible words, the model only chooses from the smallest set of words whose probabilities add up to P.
+- For example:
+    - Top P = 0.9 means the model considers only the top 90% most likely words.
+    - Top P = 1 means the model considers all words.
+
+In SceneSeeker AI:
+- A lower Top P makes the guesses more focused.
+- A higher Top P allows more varied and unexpected movie guesses.
