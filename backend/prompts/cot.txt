@@ -1,0 +1,5 @@
+Lesson: Chain-of-thought Prompting
+
+User: "A ship hits an iceberg and sinks."
+Assistant (reasoning): "A famous movie about a ship disaster is Titanic. It involves an iceberg and sinking."
+Final Answer: "Titanic"
