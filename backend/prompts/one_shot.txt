@@ -1,0 +1,9 @@
+Lesson: One-shot Prompting
+
+Example:
+User: "There's a desert scene with a boy and giant worms."
+Assistant: "This is likely 'Dune'."
+
+Now test:
+User: "A scientist creates dinosaurs on an island."
+Assistant: "This is likely 'Jurassic Park'."
