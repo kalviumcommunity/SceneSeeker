@@ -1,0 +1,23 @@
+Lesson: Top-K Sampling
+
+Introduction
+Top-K is a decoding strategy used in language models to control randomness. Instead of letting the model pick from all possible tokens, we restrict it to the top "K" most probable ones. This prevents the model from choosing unlikely or nonsensical words while still keeping outputs diverse.
+
+Concept
+- K = the number of top tokens to consider.
+- A smaller K (e.g., 10) makes the model more focused and deterministic.
+- A larger K (e.g., 100) makes the model more creative but sometimes less accurate.
+- If K = 1, the model always picks the most probable token (greedy decoding).
+
+Why it matters for SceneSeeker AI
+When trying to guess movies or shows from vague descriptions, using Top-K helps balance accuracy and creativity:
+- A lower K → safer guesses (likely blockbusters).
+- A higher K → more diverse guesses (including niche films).
+
+Example
+Prompt: "A boy finds out he’s a wizard and goes to a magic school."
+- With K = 5, the AI might guess: "Harry Potter."
+- With K = 50, it might also suggest: "Percy Jackson," "The Worst Witch," or less relevant titles.
+
+Takeaway
+Top-K ensures SceneSeeker AI does not always stick to obvious answers, but also doesn’t wander into completely unrelated guesses.
