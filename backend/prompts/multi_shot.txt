@@ -1,0 +1,13 @@
+Lesson: Multi-shot Prompting
+
+Example 1:
+User: "A superhero in red suit swinging across New York."
+Assistant: "Spider-Man."
+
+Example 2:
+User: "A wizard boy with glasses and a lightning scar."
+Assistant: "Harry Potter."
+
+Now test:
+User: "A group travels in a ring quest."
+Assistant: "Lord of the Rings."
