@@ -1,0 +1,26 @@
+Lesson: Dynamic Prompting
+
+Introduction
+Dynamic prompting means adapting the structure of the prompt based on the user’s input or context. Instead of a fixed template, the AI prompt changes depending on what the user describes.
+
+Concept
+- Static prompt = fixed wording.
+- Dynamic prompt = flexible wording that incorporates context.
+- This makes the AI feel smarter and more personalized.
+
+Why it matters for SceneSeeker AI
+Since users describe scenes differently (short, vague, or detailed), SceneSeeker AI must adjust:
+- If the input is vague → add clarifying questions.
+- If the input is detailed → emphasize extracting entities (characters, setting, actions).
+- If the input mentions specific actors or quotes → highlight those in the prompt.
+
+Example
+User input: "A guy runs really fast with lightning around him."
+- Static prompt: "Guess the movie or show."
+- Dynamic prompt: "The user described: a guy with super speed and lightning. Suggest movies or TV shows that fit this description."
+
+Benefit
+Dynamic prompting makes the guesses more accurate and feels more natural to the user, as the AI adapts to the type of input provided.
+
+Takeaway
+By using dynamic prompting, SceneSeeker AI can handle vague, medium, and detailed descriptions without needing separate systems.
