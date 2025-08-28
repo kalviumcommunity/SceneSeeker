@@ -1,0 +1,12 @@
+Lesson: Temperature in AI models
+
+The temperature parameter controls how random or deterministic the model's responses are.
+
+- A lower temperature (close to 0) makes the model more predictable and focused. It always chooses the most likely answer.
+- A higher temperature (close to 1 or above) makes the model more creative, generating more diverse outputs.
+
+In SceneSeeker AI:
+- If temperature = 0, the model will try to always guess the most likely movie.
+- If temperature = 1, the model may explore different guesses or provide more imaginative explanations.
+
+We can adjust this setting depending on whether we want consistent answers or creative brainstorming.
