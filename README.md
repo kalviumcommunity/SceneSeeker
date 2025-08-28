@@ -30,6 +30,7 @@ Search engines fail at such queries. SceneSeeker AI interprets this ambiguity an
 
 ## System Architecture
 
+
 ### RAG Pipeline
 
 1. **Retriever**  
